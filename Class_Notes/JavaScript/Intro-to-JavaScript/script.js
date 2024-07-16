@@ -39,7 +39,8 @@ let food = "Tacos";
 // console.log(food.charAt(3)); // Returns character at index 3 of the string "Tacos" -> T -> 0, a -> 1, c -> 2, o -> 3
 // console.log(food.includes("co")); // True
 // console.log(food.replace("c", "k")); // Takos
-// console.log(food.slice(0, 3)); // Ta -> slicing the string from index 0 to index 3
+// console.log(food.replaceAll("c", "k")); // Takos
+// console.log(food.slice(0, 3)); // Tac -> slicing the string from index 0 to index 3
 // console.log(food.split("")); // ['T', 'a', 'c', 'o', 's']
 // console.log(food.split("c")); // ['Ta', 'os']
 
