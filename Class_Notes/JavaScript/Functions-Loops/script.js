@@ -44,7 +44,87 @@
 
 // ------------ Functions ------------
 
+// We want to create a function that will take 2 numbers as input and return the sum of those numbers
 
+// () -> An expression commonly used when invoking a function or method
+
+// function printPaper(a, b) {
+//     console.log("Printing....")
+//     return "printed." // paper
+// }
+
+
+// function sumOfTwoNumbers(a, b) {
+//     // Body of the function
+//     return a + b
+// }
+
+// let c = sumOfTwoNumbers(5,12)
+// let d = sumOfTwoNumbers(13,18)
+// let e = sumOfTwoNumbers(523,121)
+
+// console.log(c)
+// console.log(d)
+// console.log(e)
+
+
+
+// Function Declaration -> Hoisting
+// function sum(a,b) {
+//     return a + b
+// }
+
+// Function Expression
+// let sum = function(a,b) {
+//     return a + b
+// }
+
+// Arrow Function
+// let sum = (a,b) => a + b
+
+// console.log(sum(5,10))
+
+// let a = 5 // -> Defined in global scope
+// function closedScope() {
+//     let a = 5 // Enclosed in the local function scope
+//     console.log(a)
+// }
+
+// closedScope()
+
+// console.log(a)
+
+// Closures
+
+// function outerFunction(){
+    
+//     let x = 10 // Defined in Lexical Scope
+    
+//     function innerFunction() {
+//         console.log(x)
+//     }
+//     innerFunction()
+// }
+// outerFunction()
+
+
+let arr = [1,2,3,4,5,6,7,8,9,10]
+
+let obj = {key1: "value1", key2: "value2", key3:"value3"}
+
+// 1. Write a function that will display all the numbers from 1 to 999
+
+// 2. Write a function that will display all the even numbers from 1 to 999
+
+// 3. Write a function that will display all the numbers divisible by 7 from 1 to 999
+
+// 4. Write a function that will iterate through an object and display all of its keys and values
+
+// 5. Write a function that will iterate through an array and display all of its elements
+
+// 6. Write a function that will iterate through a numbers array and add 1 to each of its values
+
+// 7. Write a function that will initiate a prompt where you write the name of the month and it will return (log) which season the month is in
 
 
 
